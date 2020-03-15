@@ -21,7 +21,7 @@
   max-height: 90vh;
 }
 
-.site-content .swipe-controls button {
+#content .swipe-controls button {
   all: unset;
   position: absolute;
   right: 0;
@@ -30,7 +30,7 @@
   padding: 20px;
 }
 
-.site-content .swipe-controls button:focus, .site-content .swipe-controls button:active {
+#content .swipe-controls button:focus, #content .swipe-controls button:active {
   outline: 2px #fff dotted;
 }
 
@@ -38,7 +38,7 @@
   max-height: 50px;
 }
 
-.site-content .swipe-controls button.prev {
+#content .swipe-controls button.prev {
   transform: scaleX(-1);
   left: 0;
 }
